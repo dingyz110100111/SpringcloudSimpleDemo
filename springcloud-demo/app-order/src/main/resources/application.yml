@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: app-order
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:q1w2e3r4t5@127.0.0.1:8761/eureka/
+  instance:
+    prefer-ip-address: true
+server:
+  port: 9092
